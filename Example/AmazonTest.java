@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AmazonTest {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ASUS\\Desktop\\Selenium\\chromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","chromeDriverPath");
         WebDriver driver = new ChromeDriver();
 
         //Amazon sayfasına git
