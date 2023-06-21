@@ -11,7 +11,7 @@ public class SauceDemoTest {
     LoginPage loginPage;
 @BeforeClass
         public void setUp() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ASUS\\Desktop\\Selenium\\chromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","PATH");
          this.driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
         loginPage = new LoginPage(driver);
